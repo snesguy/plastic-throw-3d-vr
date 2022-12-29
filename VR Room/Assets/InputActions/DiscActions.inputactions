@@ -1,0 +1,34 @@
+{
+    "name": "DiscActions",
+    "maps": [
+        {
+            "name": "Map",
+            "id": "f009e7a7-ba1b-4a98-877f-495abcf5941b",
+            "actions": [
+                {
+                    "name": "ResetPosition",
+                    "type": "Button",
+                    "id": "f2f9ed1d-1e69-4f11-8035-97579618226c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e6deedbb-3cb9-4291-94e3-47466e3fc6c3",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ResetPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
